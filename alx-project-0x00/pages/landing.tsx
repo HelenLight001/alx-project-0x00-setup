@@ -16,7 +16,7 @@ const Landing: React.FC = () => {
         {/* Medium Rounded-md Button */}
         <Button
           title="Button"
-          styles="text-md rounded-md px-4 py-2 cursor-pointer"
+          styles="text-md rounded-md px-4 py-2 cursor-pointer rounded-lg"
         />
 
         {/* Large Rounded-full Button */}
