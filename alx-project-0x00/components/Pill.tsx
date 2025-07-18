@@ -1,0 +1,16 @@
+// components/Pill.tsx
+import React from "react";
+
+interface PillProps {
+  title: string;
+}
+
+const Pill: React.FC<PillProps> = ({title}) => {
+  return (
+    <span className="px-3 py-1 text-sm bg-gray-200 rounded-full mr-2">
+      {title}
+    </span>
+  );
+};
+
+export default Pill;
