@@ -1,3 +1,5 @@
-export interface PillProps {
-  title: string;
-}
+import {PillProps} from "../interfaces";
+
+// export interface PillProps {
+//   title: string;
+// }
